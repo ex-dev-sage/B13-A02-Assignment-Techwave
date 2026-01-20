@@ -15,6 +15,8 @@
 </head>
 <body class="font-[Inter]">
     <header>
+        <!-- Nav Section -->
+
         <nav class="bg-[#1A0B2E] text-white flex sm:flex justify-between items-center py-4 px-6 lg:px-[200px] border-y-1 border-violet-800">
            <h3 class="sm:text-left text-4xl font-bold text-white">Tech<span class="bg-gradient-to-tr from-yellow-500 from-0% via-pink-500 via-51% to-purple-500 to-100% bg-clip-text text-transparent">Wave</span></h3>
            <div class="hidden md:block lg:block text-[16px]">
@@ -25,24 +27,25 @@
                 </ul>
            </div>
            <div class="hidden md:block lg:block">
-            <button class="w-[135px] h-[44px] rounded-3xl bg-gradient-to-tr from-yellow-500 from-0% via-pink-500 via-51% to-purple-500 to-100% text-[16px] items-center hover:bg-non hover:bg-purple-600">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+            <button class="w-[135px] h-[44px] rounded-3xl bg-gradient-to-tr from-yellow-500 from-0% via-pink-500 via-51% to-purple-500 to-100% text-[16px] items-center ">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
            </div>
-           <div class="block md:hidden lg:hidden"><img src="./assets/hamburger-menu.png" alt="hamburger-menu"></div>
+           <div class="block md:hidden lg:hidden"><img src="./assets/hamburger-menu.png" alt="hamburger menu png"></div>
         </nav>
 
         <!-- Banner Section -->
 
-        <section class="bg-[url(assets/hero-bg.png)] bg-cover bg-center max-w-full h-[760px]">
-            <div class="relative flex justify-center items-center px-[525px] pt-24">
-                <img src="./assets/hero-circle.png" alt="hero Circle" class="object-contain max-w-full max-h-full">
-                <div class="absolute w-42 h-42 bg-violet-500/80 rounded-full animate-ping shadow-[0_0_50px_20px_rgba(139,92,246,0.6)]"></div>
-                <img src="./assets/microphone.png" alt="microphone png" class="absolute max-w-full max-h-full animate-pulse">
+        <section class="bg-[url(./assets/hero-bg.png)] bg-cover bg-center w-full h-full md:w-full md-h-full lg:w-full lg:h-[760px]">
+            <div class="relative flex justify-center items-center pt-24 lg:pt-24">
+                <img src="./assets/hero-circle.png" alt="hero Circle" class="object-contain w-54 h-44 lg:w-max lg:h-max">
+                <img src="./assets/New.png" alt="new Badge png" class="absolute top-[88px] right-45 lg:top-25 lg:right-190">
+                <div class="absolute w-15 h-15 lg:w-42 lg:h-42 bg-violet-500/80 rounded-full animate-ping shadow-[0_0_10px_30px_rgba(139,92,246,0.6)]"></div>
+                <img src="./assets/microphone.png" alt="microphone png" class="absolute w-auto h-20 lg:w-max lg:h-max animate-pulse">
             </div>
-            <div class="text-center pt-10">
+            <div class="text-center pt-20 lg:pt-10">
                 <h3 class="text-white text-6xl font-extrabold">TechWave</h3>
                 <p class="text-stone-500 pt-2">Your daily dose of tech insights, productivity hacks, and personal growth</p>
             </div>
-            <div class="pt-6">
+            <div class="pt-6 pb-8 lg:pt-6">
                  <div class="flex justify-center gap-2">
                     <button class="w-[201px] h-[44px] rounded-3xl bg-gradient-to-tr from-yellow-500 from-0% via-pink-500 via-51% to-purple-500 to-100% text-[16px] items-center text-white"><i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
                     <button class="w-[147px] h-[44px] rounded-3xl text-[16px] items-center text-green-500 border-2"><i class="fa-regular fa-envelope"></i> Subscribe</button>
@@ -169,7 +172,7 @@
             <div class="text-center pt-28">
                 <h3 Class="font-bold text-5xl text-white">Meet The Host</h3>
             </div>
-            <div class="flex justify-center items-center p-10 mt-10 gap-6 rounded-2xl bg-[#250D44]">
+            <div class="flex justify-center items-center p-10 mt-10 gap-6 rounded-3xl bg-[#250D44]">
                 <img src="/assets/host.png">
                 <div>
                     <h4 class="font-bold text-4xl text-white">Alex Smith</h4>
@@ -193,5 +196,26 @@
             </div>
         </div>
     </section>
+    <footer class="bg-[url(./assets/footer-bg.png)] bg-center bg-cover max-w-full h-full px-52 py-52 text-white">
+         <div class="text-center">
+            <h2 class="text-7xl font-bold text-white">Tech<span class="bg-gradient-to-tr from-yellow-500 from-0% via-pink-500 via-51% to-purple-500 to-100% bg-clip-text text-transparent">Wave</h2>
+         </div>
+         <div class="flex justify-center items-center gap-10 py-8">
+            <div class="flex items-center gap-2">
+                <img src="./assets/spotify.png">Spotify
+            </div>
+            <div class="flex items-center  gap-2">
+                <img src="./assets/apple-podcast.png">Apple Podcasts
+            </div>
+            <div class="flex items-center  gap-2">
+                <img src="./assets/youtube-podcast.png">Spotify
+            </div>
+            <div class="flex items-center  gap-2">
+                <img src="./assets/twitter.png">Twitter
+            </div>
+         </div>
+         <div class="text-center">&copy; 2026 TechWave Podcast. All rights reserved.
+         </div>
+    </footer>
 </body>
 </html>
